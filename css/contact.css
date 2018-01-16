@@ -1,0 +1,20 @@
+/* Contact Form */
+form {
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  width: 30%;
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  resize: none;
+}
+
+input[type=submit] {
+  padding: 10px;
+  width: 30%;
+}
