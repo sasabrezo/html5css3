@@ -1,0 +1,6 @@
+.about-table, .about-table td, .about-table th {
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+  padding: 20px;
+  width: 100%;
+}
