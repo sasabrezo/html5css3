@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width">
     <title>About Page | HTML5 & CSS3 Review</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700" rel="stylesheet">
   </head>
   <body>
@@ -26,7 +27,23 @@
       </header>
 
       <main>
-
+        <section class="main-page">
+          <h1>Contact us!</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </section>
+        <aside class="side">
+          <form class="contact-us" action="" method="post">
+            <label for="firstName"></label>
+            <input type="text" id="firstName" name="firstname"  placeholder="First Name">
+            <label for="lastName"></label>
+            <input type="text" id="lastName" name="lastname" placeholder="Last Name">
+            <label for="email"></label>
+            <input type="email" id="email" name="email" placeholder="Email">
+            <label for="userStorie"></label>
+            <textarea name="userstorie" id="userStorie" placeholder="Share your thoughts!" rows="8"></textarea>
+            <input type="submit" name="submit" value="Submit">
+          </form>
+        </aside>
       </main>
 
       <footer class="footer">
