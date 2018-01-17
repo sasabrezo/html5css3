@@ -161,4 +161,8 @@ ul {
     text-align: center;
     text-transform: uppercase;
   }
+
+  .main-heading, .slogan {
+    margin-left: 0;
+  }
 }
