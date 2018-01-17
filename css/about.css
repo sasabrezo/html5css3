@@ -1,0 +1,12 @@
+/* Table Styling */
+
+.about-table, .about-table td, .about-table th {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  padding: 20px;
+  width: 100%;
+}
+
+.about-page {
+  padding: 0 20px;
+}

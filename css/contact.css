@@ -1,13 +1,14 @@
 /* Contact Form */
+
 form {
-  border: 1px solid #ddd;
   padding: 20px;
+  width: 100%;
 }
 
 input[type=text],
 input[type=email],
 textarea {
-  width: 30%;
+  width: 100%;
   display: block;
   margin: 10px 0;
   padding: 10px;
@@ -17,4 +18,22 @@ textarea {
 input[type=submit] {
   padding: 10px;
   width: 30%;
+}
+
+@media screen and (max-width: 1023px) {
+  form {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  form {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  form {
+    width: 100%;
+  }
 }
