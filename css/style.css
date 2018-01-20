@@ -179,6 +179,15 @@ ul {
     text-transform: uppercase;
   }
 
+  .main-nav .dropdown {
+    position: static;
+  }
+
+  .main-nav .dropdown > ul {
+    display: none;
+    position: static;
+  }
+
   .main-heading, .slogan {
     margin-left: 0;
   }
