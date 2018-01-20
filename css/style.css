@@ -74,6 +74,23 @@ ul {
   float: left;
 }
 
+.main-nav .dropdown {
+  position: relative;
+}
+
+.main-nav .dropdown > ul {
+  display: none;
+  position: absolute;
+}
+
+.main-nav .dropdown:hover > ul {
+  display: block;
+}
+
+.main-nav .dropdown:hover > ul li {
+  background-color: #dac292;
+}
+
 .main-nav a {
   text-decoration: none;
   display: block;
@@ -160,5 +177,9 @@ ul {
     float: none;
     text-align: center;
     text-transform: uppercase;
+  }
+
+  .main-heading, .slogan {
+    margin-left: 0;
   }
 }
