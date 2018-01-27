@@ -89,6 +89,7 @@ ul {
 
 .main-nav .dropdown:hover > ul li {
   background-color: #dac292;
+  width: 100%;
 }
 
 .main-nav a {
@@ -109,7 +110,11 @@ ul {
 
 }
 
-.main img {
+.side img {
+  width: 100%;
+}
+
+.main-page img {
   width: 100%;
 }
 
